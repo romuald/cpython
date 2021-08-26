@@ -545,6 +545,9 @@ can be overridden by the local file.
 
    Print the return value for the last return of a function.
 
+   The return value is stored in the calling frame's locals under
+   the name ``__return__``, and it can also be fetch from there.
+
 .. rubric:: Footnotes
 
 .. [1] Whether a frame is considered to originate in a certain module
